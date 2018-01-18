@@ -171,8 +171,92 @@ function pdoor_register_required_plugins() {
 			'name'      => 'Duplicate Menu',
 			'slug'      => 'duplicate-menu',
 			'required'  => false,
-		),		
-
+		),
+		
+		// https://wordpress.org/plugins/theme-check/
+		array(
+			'name'      => 'Theme Check',
+			'slug'      => 'theme-check',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/transients-manager/
+		array(
+			'name'      => 'Transient Manager',
+			'slug'      => 'transients-manager',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/ari-adminer/
+		array(
+			'name'      => 'ARI Adminer – WordPress Database Manager',
+			'slug'      => 'ari-adminer',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/stops-core-theme-and-plugin-updates/
+		array(
+			'name'      => 'Easy Updates Manager',
+			'slug'      => 'stops-core-theme-and-plugin-updates',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins//
+		
+		array(
+			'name'      => 'FakerPress',
+			'slug'      => 'fakerpress',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/loco-translate/
+		
+		array(
+			'name'      => 'Loco Translate',
+			'slug'      => 'loco-translate',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/meta-pixie/
+		
+		array(
+			'name'      => 'Meta Pixie',
+			'slug'      => 'meta-pixie',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/php-settings/
+		
+		array(
+			'name'      => 'PHP Settings',
+			'slug'      => 'php-settings',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/post-meta-inspector/
+		
+		array(
+			'name'      => 'Post Meta Inspector',
+			'slug'      => 'post-meta-inspector',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/user-switching/
+		
+		array(
+			'name'      => 'User Switching',
+			'slug'      => 'user-switching',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/wp-crontrol/
+		
+		array(
+			'name'      => 'WP Crontrol',
+			'slug'      => 'wp-crontrol',
+			'required'  => false,
+		),
+		
 		// This is an example of the use of 'is_callable' functionality. A user could - for instance -
 		// have WPSEO installed *or* WPSEO Premium. The slug would in that last case be different, i.e.
 		// 'wordpress-seo-premium'.
