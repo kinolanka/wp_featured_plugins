@@ -257,6 +257,53 @@ function pdoor_register_required_plugins() {
 			'required'  => false,
 		),
 		
+		// https://wordpress.org/plugins/aryo-activity-log/
+		
+		array(
+			'name'      => 'Activity Log',
+			'slug'      => 'aryo-activity-log',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/regenerate-thumbnails/
+		array(
+			'name'      => 'Regenerate Thumbnails',
+			'slug'      => 'regenerate-thumbnails',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/wp-migrate-db/
+		
+		array(
+			'name'      => 'WP Migrate DB',
+			'slug'      => 'wp-migrate-db',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/wp-retina-2x/
+		
+		array(
+			'name'      => 'WP Retina 2x',
+			'slug'      => 'wp-retina-2x',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/cyr3lat/
+		
+		array(
+			'name'      => 'Cyr to Lat enhanced',
+			'slug'      => 'cyr3lat',
+			'required'  => false,
+		),
+		
+		// https://wordpress.org/plugins/wp-cerber/
+		
+		array(
+			'name'      => 'Cerber Security & Antispam',
+			'slug'      => 'wp-cerber',
+			'required'  => false,
+		),
+		
 		// This is an example of the use of 'is_callable' functionality. A user could - for instance -
 		// have WPSEO installed *or* WPSEO Premium. The slug would in that last case be different, i.e.
 		// 'wordpress-seo-premium'.
